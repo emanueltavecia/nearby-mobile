@@ -1,9 +1,13 @@
 import { colors } from '@/styles/theme'
-import { ActivityIndicator } from 'react-native'
+import { ActivityIndicator, View } from 'react-native'
 import { styles } from './styles'
+import { StatusBar } from 'expo-status-bar'
 
 export function Loading() {
   return (
-    <ActivityIndicator color={colors.green.base} style={styles.container} />
+    <View style={styles.container}>
+      <StatusBar style="dark" backgroundColor="#FFFFFF" />
+      <ActivityIndicator color={colors.green.base} />
+    </View>
   )
 }

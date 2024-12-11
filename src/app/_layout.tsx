@@ -25,6 +25,8 @@ export default function Layout() {
       screenOptions={{
         headerShown: false,
         contentStyle: { backgroundColor: colors.gray[100] },
+        statusBarBackgroundColor: colors.gray[100],
+        navigationBarColor: colors.gray[100],
       }}
     />
   )

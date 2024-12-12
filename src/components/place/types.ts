@@ -7,6 +7,8 @@ export interface Place {
   coupons: number
   cover: string
   address: string
+  latitude: number
+  longitude: number
 }
 
 export interface PlaceProps extends TouchableOpacityProps {

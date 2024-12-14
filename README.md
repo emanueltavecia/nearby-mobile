@@ -28,6 +28,7 @@ The development of this project aims to learn the following concepts:
 ## 🔗 Project Links
 
 - 🎨 [**Figma**](https://www.figma.com/community/file/1448070647757721748)
+- 📡 [**API repository on GitHub**](https://www.figma.com/community/file/1448070647757721748)
 
 ## 💻 Technologies
 
